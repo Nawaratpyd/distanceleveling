@@ -1,0 +1,27 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "GPL-3.0-or-later"
+
+[[mods]]
+modId = "distanceleveling"
+version = "1.0.0"
+displayName = "Distance Leveling"
+authors = "Your Name"
+description = '''
+Monsters gain levels the further you travel from world spawn.
+A NeoForge 1.21.1 re-implementation of the idea behind Auto Leveling by Daripher.
+'''
+
+[[dependencies.distanceleveling]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.distanceleveling]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"
